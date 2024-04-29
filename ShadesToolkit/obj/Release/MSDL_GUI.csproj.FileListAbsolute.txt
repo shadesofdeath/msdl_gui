@@ -1,0 +1,35 @@
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\MSDL_GUI.exe.config
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\MSDL_GUI.exe
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\MSDL_GUI.pdb
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\HandyControl.dll
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\HandyControl.pdb
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\HtmlAgilityPack.dll
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\HtmlAgilityPack.pdb
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\Newtonsoft.Json.dll
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\RestSharp.dll
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\System.Buffers.dll
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\System.Memory.dll
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\System.Numerics.Vectors.dll
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\System.Text.Encodings.Web.dll
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\System.Text.Json.dll
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\System.Threading.Tasks.Extensions.dll
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\bin\Release\System.ValueTuple.dll
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\obj\Release\MSDL_GUI.csproj.AssemblyReference.cache
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\obj\Release\MSDL_GUI.csproj.SuggestedBindingRedirects.cache
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\obj\Release\MSDL_GUI.exe.config
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\obj\Release\DownloadOptionWindow .baml
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\obj\Release\MainWindow.baml
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\obj\Release\Properties\DesignTimeResources.baml
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\obj\Release\App.baml
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\obj\Release\DownloadOptionWindow .g.cs
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\obj\Release\MainWindow.g.cs
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\obj\Release\App.g.cs
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\obj\Release\MSDL_GUI_Content.g.cs
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\obj\Release\MSDL_GUI_MarkupCompile.cache
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\obj\Release\MSDL_GUI.g.resources
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\obj\Release\MSDL_GUI.csproj.CoreCompileInputs.cache
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\obj\Release\MSDL_GUI.csproj.Up2Date
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\obj\Release\MSDL_GUI.exe
+D:\ShadesTweaker\ShadesToolkit\ShadesToolkit\obj\Release\MSDL_GUI.pdb
