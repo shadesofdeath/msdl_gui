@@ -2,7 +2,7 @@
 
 
 # Microsoft Software Download Listing GUI
-Microsoft Software Download List GUI application allows you to download officially released microsoft orjina iso files. 
+Microsoft Software Download List GUI application allows you to download officially released microsoft orjinal iso files. 
 
 
 ## Products list
