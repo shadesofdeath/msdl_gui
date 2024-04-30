@@ -22,7 +22,7 @@ namespace MSDL_GUI
         private const string DownUrl = "https://www.microsoft.com/en-us/api/controls/contentinclude/html?pageId=cfa9e580-a81e-4a4b-a846-7b21bf4e2e5b&host=www.microsoft.com&segments=software-download%2Cwindows11&query=&action=GetProductDownloadLinksBySku&sdVersion=2";
         private const string SessionUrl = "https://vlscppe.microsoft.com/fp/tags?org_id=y6jn8c31&session_id=";
         private const string SharedSessionGUID = "47cbc254-4a79-4be6-9866-9c625eb20911";
-        private const string ApiUrl = "https://api.gravesoft.dev/msdl";
+        private string ApiUrl;
 
         private HttpClient httpClient;
         private string sessionId;
@@ -41,21 +41,44 @@ namespace MSDL_GUI
             sessionId = Guid.NewGuid().ToString();
             sharedSession = false;
             LoadProducts();
+            Loaded += OnLoaded;
+        }
+        private async void OnLoaded(object sender, RoutedEventArgs e)
+        {
+            var apiUrl = await FetchApiUrl();
 
+            ApiUrl = apiUrl;
         }
 
-        private void LoadProducts()
+        private async Task<string> FetchApiUrl()
+        {
+            string apiUrlSource = "https://raw.githubusercontent.com/gravesoft/msdl/main/js/msdl.js";
+            using (var httpClient = new HttpClient())
+            {
+                var response = await httpClient.GetAsync(apiUrlSource);
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    var apiUrlLine = content.Split('\n').FirstOrDefault(line => line.Contains("const apiUrl ="));
+                    if (apiUrlLine != null)
+                    {
+                        var apiUrl = apiUrlLine.Split('"')[1];
+                        return apiUrl;
+                    }
+                }
+            }
+            return null;
+        }
+
+        private async void LoadProducts()
         {
             try
             {
-                var assembly = Assembly.GetExecutingAssembly();
-                var resourceName = "MSDL_GUI.data.products.json";
-
-                using (Stream stream = assembly.GetManifestResourceStream(resourceName))
-                using (StreamReader reader = new StreamReader(stream))
+                string productsUrl = "https://raw.githubusercontent.com/gravesoft/msdl/main/data/products.json";
+                using (var httpClient = new HttpClient())
                 {
-                    string productsJson = reader.ReadToEnd();
-                    var products = JsonConvert.DeserializeObject<Dictionary<string, string>>(productsJson);
+                    var response = await httpClient.GetStringAsync(productsUrl);
+                    var products = JsonConvert.DeserializeObject<Dictionary<string, string>>(response);
                     ProductComboBox.ItemsSource = products;
                     ProductComboBox.DisplayMemberPath = "Value";
                 }
@@ -65,6 +88,7 @@ namespace MSDL_GUI
                 MessageBox.Show($"Error loading products: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
+
 
         private async void ProductComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

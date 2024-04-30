@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projeler\\msdl_gui\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6346E569-1A4A-4A44-9AD5-5C9472388654}|MSDL_GUI\\MSDL_GUI.csproj|d:\\projeler\\msdl_gui\\msdl_gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6346E569-1A4A-4A44-9AD5-5C9472388654}|MSDL_GUI\\MSDL_GUI.csproj|solutionrelative:msdl_gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346E569-1A4A-4A44-9AD5-5C9472388654}|MSDL_GUI\\MSDL_GUI.csproj|d:\\projeler\\msdl_gui\\msdl_gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6346E569-1A4A-4A44-9AD5-5C9472388654}|MSDL_GUI\\MSDL_GUI.csproj|solutionrelative:msdl_gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Projeler\\msdl_gui\\MSDL_GUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MSDL_GUI\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Projeler\\msdl_gui\\MSDL_GUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MSDL_GUI\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T14:29:57.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Projeler\\msdl_gui\\MSDL_GUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MSDL_GUI\\MainWindow.xaml",
+              "ToolTip": "D:\\Projeler\\msdl_gui\\MSDL_GUI\\MainWindow.xaml",
+              "RelativeToolTip": "MSDL_GUI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-30T14:26:56.854Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
